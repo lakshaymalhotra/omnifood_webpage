@@ -1,0 +1,66 @@
+@media only screen and (max-width:1036px){
+    h1{
+        font-size: 1.5rem !important;
+    }
+
+section{
+padding: 2.5% 4.5%;
+}
+}
+/* for mobile screen ip6 */
+@media only screen and (max-width:500px){
+    .article{
+     flex-direction: column !important; 
+     margin-top: 0rem;
+    }
+    
+    
+    hr{
+        width: 8rem;
+        margin-left: 36%;
+        color:#27ae60;
+        margin-top: 1rem;
+        /* margin-bottom: 4.5rem; */
+    }
+    *{
+        flex-direction: column ;
+    }
+    section{
+        height: max-content;
+    }
+    .steps-list{
+        margin-right: 0rem ;
+        font-size: 90%;
+    }
+    .lisoninfo-1{
+        padding: bottom 1.4rem;
+    }
+    .signup-child{
+        width: 90%;
+    }
+    #one h2{
+        font-size: 110%;
+    }
+    .middlebody p{
+        margin-bottom: 1rem;
+    }
+    .lisoninfo-1{
+        display: flex;
+        flex-direction: initial;
+    }
+   .app-img{
+       margin-right: 1rem;
+       padding-left: 2%;
+   }
+   .bar a{
+       opacity: 0;
+   }
+   .header_text_box h1{
+       font-size: 100%;
+       padding: 1%;
+       text-align: center;
+   }
+   .button1:link,.button1:visited{
+     margin-left: 10%
+   }
+}
